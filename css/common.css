@@ -1,0 +1,110 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+/* ======================================================*/
+/* FLEX */
+
+.flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.flex-cols {
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+.flex-rows {
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -ms-box-orient: horizontal;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+
+.flex-fill-space {
+  flex: 1 1 auto;
+}
+
+.flex-sized-to-content {
+  flex: 0 1 auto;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background: white;
+}
+
+header {
+  order: 0;
+  flex: 0 1 60px;
+  background: red;
+}
+
+#page-content {
+  order: 1;
+  height: 100%;
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+
+  flex: 1 1 auto;
+}
+
+#top {
+  order: 0;
+  background: #B6B5B5;
+}
+
+#numbers-input {
+  order: 1;
+  background: #FFFFFF;
+
+  overflow-y: auto;
+}
+
+#input-boxes {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.box {
+  height: 71px;
+  width: 71px;
+  margin: 10px;
+  background: white;
+  border: 0.5px solid #000000;
+}
+
+.num-input-box {
+  height: 67px;
+  width: 67px;
+  padding: 0;
+  /*margin: 3px 4px 4px 4px;*/
+  font-size: 48px;
+  text-align: center;
+}
+
+.box:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+
+footer {
+  order: 2;
+  flex: 0 1 60px;
+
+  background: red;
+}
