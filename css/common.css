@@ -67,6 +67,32 @@ header {
   background: #B6B5B5;
 }
 
+#top-controls {
+  width: 100%;
+  font-size: 22px;
+}
+
+#timer{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#btn-reset {
+  margin-left: 20px;
+}
+
+
+#lives {
+  margin-left: 120px;
+  margin-right: 10px;
+}
+
+
+button {
+  height: 50px;
+  width: 100px;
+}
+
 #numbers-input {
   order: 1;
   background: #FFFFFF;
