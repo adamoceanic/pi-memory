@@ -83,9 +83,15 @@ header {
 
 
 #lives {
-  margin-left: 120px;
+  margin-left: 80px;
   margin-right: 10px;
 }
+
+#reveals {
+  margin-left: 80px;
+  margin-right: 10px;
+}
+
 
 
 button {
@@ -123,6 +129,10 @@ button {
 
 .border-glow {
   box-shadow: 0 0 6px rgba(255, 28, 28, 1);
+}
+
+.error {
+  background: #FF6B6B;
 }
 
 input {
