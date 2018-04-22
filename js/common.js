@@ -15,7 +15,6 @@ $(document).ready(function() {
     }
 
     function validateInput(input, id) {
-      console.log(input + "," + id);
       if (input == pi_digits[id]) {
         return true;
       }
