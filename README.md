@@ -1,6 +1,6 @@
 | Branch | CI | Coverage | Website | Development |
 |---|---|---|---|---|
-| master | [![Build Status](https://travis-ci.org/ajze/pi-memory.png)](https://travis-ci.org/ajze/pi-memory) | [![Coverage Status](https://coveralls.io/repos/github/ajze/pi-memory/badge.svg?branch=master&service=github)](https://coveralls.io/github/ajze/pi-memory?branch=master) | [pi.ajze.co.uk]() | [work.jonze.uk](https://work.jonze.uk) |
+| master | [![Build Status](https://travis-ci.org/ajze/pi-memory.png)](https://travis-ci.org/ajze/pi-memory) | [![Coverage Status](https://coveralls.io/repos/github/ajze/pi-memory/badge.svg?branch=master&service=github)](https://coveralls.io/github/ajze/pi-memory?branch=master) | [pi.ajze.co.uk](pi.ajze.co.uk) | [work.jonze.uk](https://work.jonze.uk) |
 
 # pi-memory
 A web-based application helping users to memorise the digits of Pi, and potentially other well known number lists (primes, mersenne primes, Lucas, etc)
